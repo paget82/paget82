@@ -1,12 +1,19 @@
 # Hi there, I'm Patrik Pagac! 👋
 
-**Data Analyst | Python & SQL | Power BI & Excel | AI Automation**
+**Data Analyst | Data Pipelines (dbt & Airflow) | Python & SQL | Power BI | AI Automation**
 
-I'm a self-taught data analyst based in Prague. I enjoy turning raw, messy data into clear dashboards, reports and models that help people make better decisions, and I'm now exploring how AI agents can make data accessible to everyone, not just people who write SQL.
+I'm a self-taught data analyst based in Prague. I work across the data lifecycle: building tested, orchestrated pipelines, modeling data in SQL, and turning it into dashboards, reports and models that help people make better decisions. I'm also exploring how AI agents can make data accessible to everyone, not just people who write SQL.
 
 ---
 
 ## 🚀 Top Data Projects
+
+### 🏗️ [Loan-data-pipeline](https://github.com/paget82/loan-data-pipeline) | End-to-End Data Engineering Pipeline
+* **Core:** Fully orchestrated daily batch pipeline for loan and transaction data: synthetic data generation → raw load into PostgreSQL → dbt staging and dimensional marts → automated data quality tests → Power BI reporting.
+* **Tech:** Python (Faker, Pandas, SQLAlchemy, Requests), PostgreSQL, dbt, Apache Airflow, Docker Compose, GitHub Actions (CI), Power BI, public REST API (Frankfurter / ECB exchange rates).
+* **Impact:** Replaces manual, error-prone refreshes with a scheduled, tested and observable process. dbt tests and CI catch broken models or bad data before they reach a dashboard. The pipeline handles ~60,000 transactions, ~8,000 loans and ~5,000 clients (synthetic US-market data), enriches loans with live exchange rates and converts USD amounts to EUR, validated end-to-end in Power BI.
+
+
 
 ### 🤖 [AI Data Analyst Agent](https://github.com/paget82/ai-data-analyst) | AI Agent for Natural-Language Data Analysis
 * **Core:** Chat-based AI analyst that lets non-technical users ask questions about an e-commerce database in plain language and get back a written answer, a table and a chart.
@@ -42,16 +49,17 @@ I'm a self-taught data analyst based in Prague. I enjoy turning raw, messy data 
 | Category | Tools & Technologies |
 | :--- | :--- |
 | **Data Science** | Python (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib), Jupyter |
+| **Data Engineering** | dbt, Apache Airflow, ETL / ELT, dimensional modeling, data quality testing, REST API integration |
 | **Databases** | SQL, PostgreSQL |
 | **BI & Reporting** | Power BI (DAX), Excel (Pivot Tables, VLOOKUP, Slicers) |
 | **Automation & AI** | n8n, LangChain, AI Agents (OpenAI / Anthropic) |
-| **Dev Tools** | Docker, Git, React / TypeScript (basics) |
+| **Dev Tools** | Docker, Docker Compose, Git, GitHub Actions (CI), React / TypeScript (basics) |
 
 ---
 
 ## 🎯 What I'm Focused On
 
-* Building end-to-end analyses: from raw data and SQL to dashboards and insights
+* Building end-to-end data solutions: from pipelines and SQL modeling to dashboards and insights
 * Machine learning for business problems (classification, clustering)
 * AI-powered analytics and workflow automation
 
