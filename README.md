@@ -1,46 +1,64 @@
-# Hi, I'm Patrik 👋
+# Hi there, I'm Patrik Pagac! 👋
 
-Data Analyst focused on **Power BI, SQL, Python, and reporting automation**, with growing hands-on experience in **AI-driven automation** (n8n, Python, LLM tooling).
+**Data Analyst | Python & SQL | Power BI & Excel | AI Automation**
 
-📍 Prague, Czechia &nbsp;|&nbsp; 🌐 EN / CZ / SK &nbsp;|&nbsp; 📫 [patrik.pagac@gmail.com](mailto:your.email@example.com) 
-
----
-
-## About Me
-
-- 🔍 I work with **Excel, SQL Server, Power BI and Python** to build and maintain reporting for enterprise financial data
-- ⚙️ I automate recurring processes with **Power Automate** and, personally, **n8n / Make.com / Python**
-- 🤖 Currently learning: RAG pipelines, agent orchestration (LangChain / LangGraph)
-
-
+I'm a self-taught data analyst based in Prague. I enjoy turning raw, messy data into clear dashboards, reports and models that help people make better decisions, and I'm now exploring how AI agents can make data accessible to everyone, not just people who write SQL.
 
 ---
 
-## Skills
+## 🚀 Top Data Projects
 
-**Data & BI**
-`SQL Server` `T-SQL` `DAX` `Power BI` `Power Query` `Excel`
+### 🤖 [ai-data-analyst](https://github.com/paget82/ai-data-analyst) | AI Agent for Natural-Language Data Analysis
+* **Core:** Chat-based AI analyst that lets non-technical users ask questions about an e-commerce database in plain language and get back a written answer, a table and a chart.
+* **Tech:** n8n, LangChain agent (GPT), Claude (NL → SQL), PostgreSQL, React + TypeScript + Tailwind, Docker Compose.
+* **Impact:** Removes the "ask the data team" bottleneck: no SQL needed for questions like *"What is the average delivery time by state?"*
 
-**Automation & Scripting**
-`Python` `Power Automate` `n8n` `Make.com`
+### 📊 [dashboard-bankovnich-pujcek](https://github.com/paget82/dashboard-bankovnich-pujcek) | Power BI & SQL Dashboard
+* **Core:** Interactive loan-portfolio dashboard for management, built on 38,576 loan records.
+* **Tech:** SQL, Power BI, DAX (`CALCULATE`, `TOTALMTD`, `TOTALYTD`, `SAMEPERIODLASTYEAR`, `DATEADD`).
+* **Impact:** Instant view of applications, funded amount, received payments, interest rate and DTI, including MTD and MoM trends and a breakdown by loan status, term, purpose and home ownership.
 
-**AI / ML Tooling**
-`LangChain` `LangGraph` `Ollama` `Gemini API`
+### 🧪 [Predikce-schvaleni-pujcky](https://github.com/paget82/Predikce-schvaleni-pujcky) | Machine Learning & Prediction
+* **Core:** Predicting loan approval to help automate and speed up the decision process.
+* **Tech:** Python, Scikit-learn, EDA, 7 models compared (Logistic Regression, KNN, SVM, Naive Bayes, Decision Tree, Random Forest, Gradient Boosting).
+* **Impact:** Benchmarked multiple classifiers on 614 applications, with the best model reaching **81% accuracy**.
 
-**Other**
-`Git` `Docker`
+### 🛍️ [segmentace-zakazniku](https://github.com/paget82/segmentace-zakazniku) | Customer Segmentation
+* **Core:** Clustering shopping-mall customers by age, income and spending score.
+* **Tech:** Python, Pandas, Seaborn, Matplotlib, Scikit-learn (K-Means, Elbow method).
+* **Impact:** Identified 5 customer segments, including a high-income, high-spending VIP group, and turned them into concrete marketing recommendations.
+
+### 🍪 [Report-prodeju-spolecnosti-cookie](https://github.com/paget82/Report-prodeju-spolecnosti-cookie) | Excel Sales Report
+* **Core:** 2024 sales report for Cookie Company, with a summary overview and a detailed view by month, region and product.
+* **Tech:** Excel, Pivot Tables, Slicers, `VLOOKUP`, `IFERROR`, line and pie charts.
+* **Impact:** Turned 643 raw order records into a report that supports production and marketing planning.
+
+> 🇨🇿 Most project documentation is written in Czech.
 
 ---
 
-## Featured Projects
+## 🛠️ Tech Stack
 
-| Project | Description | Tools | Key Result |
-|---|---|---|---|
-| ⭐ [AI Data Analyst Agent](https://github.com/paget82/ai-data-analyst) | Chat agent that turns plain-language questions into SQL and returns tables/charts — no SQL knowledge needed | React/TS, n8n, LangChain, GPT, Claude, Postgres, Docker | Full-stack agentic app: NL→SQL generation, validation, and execution end-to-end |
-| [Predikce schválení půjčky](https://github.com/paget82/Predikce-schvaleni-pujcky) | Predicts loan approval from applicant data using 7 ML models | Python, Scikit-learn, Pandas | Up to 81% prediction accuracy (614 records) |
-| [Segmentace zákazníků](https://github.com/paget82/segmentace-zakazniku) | Customer segmentation for a shopping mall using K-Means clustering | Python, Pandas, Seaborn, Sklearn | Identified 5 customer segments incl. high-value "VIP" cluster for targeted marketing |
-| [Dashboard bankovních půjček](https://github.com/paget82/dashboard-bankovnich-pujcek) | Interactive Power BI dashboard tracking loan portfolio performance | SQL, Power BI, DAX | KPI tracking (MTD/MoM) across 38,576 loan records |
-| [Report prodejů – Cookie Company](https://github.com/paget82/Report-prodeju-spolecnosti-cookie) | Sales analysis report with monthly/regional trend breakdowns | Excel (Pivot Tables, VLOOKUP, Slicers) | Structured summary + detail views for 643 orders |
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Data Science** | Python (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib), Jupyter |
+| **Databases** | SQL, PostgreSQL |
+| **BI & Reporting** | Power BI (DAX), Excel (Pivot Tables, VLOOKUP, Slicers) |
+| **Automation & AI** | n8n, LangChain, AI Agents (OpenAI / Anthropic) |
+| **Dev Tools** | Docker, Git, React / TypeScript (basics) |
 
 ---
 
+## 🎯 What I'm Focused On
+
+* Building end-to-end analyses: from raw data and SQL to dashboards and insights
+* Machine learning for business problems (classification, clustering)
+* AI-powered analytics and workflow automation
+
+---
+
+## 📫 Let's Connect!
+- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+
+---
+*I believe that good analysis starts with understanding the business question, and that data should be easy for everyone to use.*
