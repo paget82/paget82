@@ -2,7 +2,7 @@
 
 **Data Analyst | Data Pipelines (dbt & Airflow) | Python & SQL | Power BI | AI Automation**
 
-I'm a self-taught data analyst based in Prague. I work across the data lifecycle: building tested, orchestrated pipelines, modeling data in SQL, and turning it into dashboards, reports and models that help people make better decisions. I'm also exploring how AI agents can make data accessible to everyone, not just people who write SQL.
+I'm a data analyst based in Prague. I work across the data lifecycle: building tested, orchestrated pipelines, modeling data in SQL, and turning it into dashboards, reports and models that help people make better decisions. I'm also exploring how AI agents can make data accessible to everyone, not just people who write SQL.
 
 ---
 
