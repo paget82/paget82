@@ -11,7 +11,7 @@ I'm a data analyst based in Prague. I work across the data lifecycle: building t
 ### 🏗️ [Loan-data-pipeline](https://github.com/paget82/loan-data-pipeline) | End-to-End Data Engineering Pipeline
 * **Core:** Fully orchestrated daily batch pipeline for loan and transaction data: synthetic data generation → raw load into PostgreSQL → dbt staging and dimensional marts → automated data quality tests → Power BI reporting.
 * **Tech:** Python (Faker, Pandas, SQLAlchemy, Requests), PostgreSQL, dbt, Apache Airflow, Docker Compose, GitHub Actions (CI), Power BI, public REST API (Frankfurter / ECB exchange rates).
-* **Impact:** Replaces manual, error-prone refreshes with a scheduled, tested and observable process. dbt tests and CI catch broken models or bad data before they reach a dashboard. The pipeline handles ~60,000 transactions, ~8,000 loans and ~5,000 clients (synthetic US-market data), enriches loans with live exchange rates and converts USD amounts to EUR, validated end-to-end in Power BI.
+* **Impact:** Replaces manual, error-prone refreshes with a scheduled, tested and observable process. dbt tests and CI catch bad data before they reach a dashboard. The pipeline handles ~60,000 transactions, ~8,000 loans and ~5,000 clients (synthetic US-market data), enriches loans with live exchange rates and converts USD amounts to EUR, validated end-to-end in Power BI.
 
 
 
